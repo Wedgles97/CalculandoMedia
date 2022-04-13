@@ -3,7 +3,7 @@ import { View, Text} from "react-native";
 import styles from "./style";
 import { LinearGradient } from 'expo-linear-gradient';
 
-export default function Title(){
+export default function Header(){
     return(
         <View >
             <LinearGradient

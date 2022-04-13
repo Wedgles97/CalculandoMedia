@@ -10,6 +10,9 @@ import {
 
 import { styles } from './style';
 
+import { Header } from '../../components/Header';
+
+
 export default function New() {
 	const [nota1, setNota1] = useState('');
 	const [nota2, setNota2] = useState('');

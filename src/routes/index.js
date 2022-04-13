@@ -19,6 +19,7 @@ export default function Routes() {
     return (
 		<NavigationContainer>
 			<Navigator
+				initialRouteName='Inicio'
 				screenOptions={{
 					headerShown: false,
 					tabBarStyle: {
