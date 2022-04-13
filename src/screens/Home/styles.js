@@ -8,15 +8,16 @@ export const styles = StyleSheet.create({
 		alignItems: 'center',
 	},
 	image: {
-		marginTop: 20,
-		width: 150,
-		height: 128,
-		justifyContent: 'center',
+		marginTop: 10,
+		width: 180,
+		height: 180,
+		top: '15%'
 	},
 	textTittle: {
 		color: '#fff',
 		fontSize: 30,
 		padding: 0,
+		marginTop: 10,
 		fontWeight: 'bold',
 		textTransform: 'uppercase',
 	},
@@ -25,7 +26,7 @@ export const styles = StyleSheet.create({
 		backgroundColor: 'white',
 		width: 250,
 		height: 60,
-		marginTop: 350,
+		marginTop: 250,
 		justifyContent: 'center',
 	},
 	inputBtnText: {
