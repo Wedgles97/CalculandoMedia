@@ -12,6 +12,7 @@ import Search from '../screens/Search';
 import Notification from '../screens/Notification';
 
 import ButtonHome from '../components/ButtonHome';
+import Header from '../components/Header';
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
@@ -33,6 +34,8 @@ export default function Routes() {
 				name="Novo"
 				component={New}
 				options={{
+					headerShown: true,
+					header: () => <Header />,
 					tabBarIcon: ({ color, size }) => (
 						<Entypo name="plus" size={size} color={color} />
 					),
